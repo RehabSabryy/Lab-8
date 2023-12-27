@@ -1,0 +1,48 @@
+/*   CSS Part 1 */
+
+body {
+    background-color: #67BE4D;
+    text-align: -webkit-center;
+    margin-top: 100px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    width: 40%;
+    padding: 20px;
+}
+input,#btn {
+    margin-bottom: 10px;
+    height: 35px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#btn {
+    background-color: #00B242;
+    color: white;
+}
+#message  {
+    color: red;
+    align-self:center;
+    font-weight: bold;
+    background-color: #fafafa;
+}
+#email_validation , #password_validation {
+    color: red;
+    width: 500px;
+    align-items: start;
+    text-align-last: start;
+}
+.register-text{
+    align-self: center;
+}
+a,h1 {
+    color: #00B242;
+}
+
+  

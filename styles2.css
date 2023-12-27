@@ -1,0 +1,74 @@
+/* CSS Part 2  */
+body{
+    text-align: -webkit-center;
+}
+.toDo{
+    text-align: center;
+    background-color: #ececec;;
+    width: 50%;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+h1{
+    color: #242482;
+}
+#add , #task {
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+#task {
+    width: 300px;
+}
+#add {
+    width: 100px;
+    background-color: #242482;
+    color: white;
+}
+#added-tasks{
+    background-color: rgb(122, 151, 151);
+}
+li{
+    
+    display: flex;
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+    padding: 0 10px;
+}
+.done-btn {
+    background-color: #68c068;
+    color: #fff;
+    border: 1px solid ;
+    padding: 5px 10px;
+    border-radius: 3px;
+    position: absolute;
+    right: 535px;
+  }
+  .task-text{
+    color: #3f3fe0;
+  }
+  .delete-btn {
+    background-color: red;
+    color: #fff;
+    border: 1px solid ;
+    padding: 5px 10px;
+    border-radius: 3px;
+    position: absolute;
+    right: 455px;
+  }
+  .done-active {
+    background-color: blue;
+    color: #fff;
+  } 
+  .part3 {
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+}

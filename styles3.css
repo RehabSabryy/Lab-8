@@ -1,0 +1,28 @@
+/* Part 3  */
+
+#box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+  .item-email {
+    font-size: 24px;
+  }
+  .item-img {
+    width: 200px;
+  }
+  .item-container {
+    background-color:#f0f0f0;
+    padding: 27px;
+    border-radius: 29px;
+    margin: 10px 10px 50px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 320px;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+  }
+
+  .item-container:hover {
+    transform: scale(1.1);
+  }
